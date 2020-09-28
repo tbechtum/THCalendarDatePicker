@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1143B3B025220F3E00035D45 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1143B3AF25220F3E00035D45 /* Media.xcassets */; };
 		941C7F9F69517B9D5E57671A /* libPods-THCalendarDatePickerExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 677D66A3018B9BEF37DB9F0E /* libPods-THCalendarDatePickerExampleTests.a */; };
 		99A0252D198A40C100764326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A0252C198A40C100764326 /* Foundation.framework */; };
 		99A0252F198A40C100764326 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A0252E198A40C100764326 /* CoreGraphics.framework */; };
@@ -15,7 +16,6 @@
 		99A02539198A40C100764326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A02538198A40C100764326 /* main.m */; };
 		99A0253D198A40C100764326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0253C198A40C100764326 /* AppDelegate.m */; };
 		99A02540198A40C100764326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A0253E198A40C100764326 /* Main.storyboard */; };
-		99A02545198A40C100764326 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A02544198A40C100764326 /* Images.xcassets */; };
 		99A0254C198A40C100764326 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A0254B198A40C100764326 /* XCTest.framework */; };
 		99A0254D198A40C100764326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A0252C198A40C100764326 /* Foundation.framework */; };
 		99A0254E198A40C100764326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A02530198A40C100764326 /* UIKit.framework */; };
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1143B3AF25220F3E00035D45 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		5F291CD638B62E29EB38BACF /* libPods-THCalendarDatePickerExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THCalendarDatePickerExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		677D66A3018B9BEF37DB9F0E /* libPods-THCalendarDatePickerExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THCalendarDatePickerExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		836574914BD99A352AD0B5AE /* Pods-THCalendarDatePickerExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THCalendarDatePickerExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-THCalendarDatePickerExampleTests/Pods-THCalendarDatePickerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		99A0253B198A40C100764326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99A0253C198A40C100764326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		99A0253F198A40C100764326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99A02544198A40C100764326 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		99A0254A198A40C100764326 /* THCalendarDatePickerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THCalendarDatePickerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A0254B198A40C100764326 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		99A02553198A40C100764326 /* THCalendarDatePickerExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THCalendarDatePickerExampleTests-Info.plist"; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 				99A0253B198A40C100764326 /* AppDelegate.h */,
 				99A0253C198A40C100764326 /* AppDelegate.m */,
 				99A0253E198A40C100764326 /* Main.storyboard */,
-				99A02544198A40C100764326 /* Images.xcassets */,
+				1143B3AF25220F3E00035D45 /* Media.xcassets */,
 				99A02533198A40C100764326 /* Supporting Files */,
 			);
 			path = THCalendarDatePickerExample;
@@ -223,9 +223,12 @@
 		99A02521198A40C100764326 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = 3Bus;
 				TargetAttributes = {
+					99A02528198A40C100764326 = {
+						DevelopmentTeam = E72Y7WN8XW;
+					};
 					99A02549198A40C100764326 = {
 						TestTargetID = 99A02528198A40C100764326;
 					};
@@ -255,8 +258,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99A02545198A40C100764326 /* Images.xcassets in Resources */,
 				99A02537198A40C100764326 /* InfoPlist.strings in Resources */,
+				1143B3B025220F3E00035D45 /* Media.xcassets in Resources */,
 				99A02540198A40C100764326 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,15 +299,9 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-THCalendarDatePickerExample/Pods-THCalendarDatePickerExample-resources.sh",
-				"${PODS_ROOT}/../../../THCalendarDatePicker/THDateDay.xib",
-				"${PODS_ROOT}/../../../THCalendarDatePicker/THDatePickerViewController.xib",
-				"${PODS_ROOT}/../../../THCalendarDatePicker/Media.xcassets",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/THDateDay.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/THDatePickerViewController.nib",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,6 +407,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -436,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -464,6 +462,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -483,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -495,11 +494,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = E72Y7WN8XW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THCalendarDatePickerExample/THCalendarDatePickerExample-Prefix.pch";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				INFOPLIST_FILE = "THCalendarDatePickerExample/THCalendarDatePickerExample-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.3bus.$(PRODUCT_NAME:rfc1034identifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tbechtum.THCalendarDatePickerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -511,11 +513,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = E72Y7WN8XW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THCalendarDatePickerExample/THCalendarDatePickerExample-Prefix.pch";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				INFOPLIST_FILE = "THCalendarDatePickerExample/THCalendarDatePickerExample-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.3bus.$(PRODUCT_NAME:rfc1034identifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tbechtum.THCalendarDatePickerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

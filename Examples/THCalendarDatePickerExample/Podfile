@@ -1,9 +1,13 @@
 source 'https://cdn.cocoapods.org/'
-platform :ios, '8.0'
+platform :ios, '9.0'
+
+# Avoids assets.car error https://github.com/CocoaPods/CocoaPods/issues/8122
+install! 'cocoapods', :disable_input_output_paths => true
 
 target 'THCalendarDatePickerExample' do
-	pod 'THCalendarDatePicker', :path=> './../../'
-	target 'THCalendarDatePickerExampleTests' do
-		inherit! :search_paths
-	end
+  pod 'THCalendarDatePicker', :path=> './../../'
+  target 'THCalendarDatePickerExampleTests' do
+    inherit! :search_paths
+  end
 end
+
